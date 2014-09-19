@@ -11,3 +11,26 @@ html {
     box-sizing: inherit;
 }
 
+/* this code needs to be in all css files. It tells the server what to do */ 
+
+.title {
+    color: red;
+}
+
+/*alwasys work small before large. If you start large then small you will make it hard for yourself. You have to define the min-width inorder to tell the server when you active it.*/
+
+@media only screen and (min-width:400px) {
+    
+   .title {
+       color: blue;
+   }
+
+}
+
+@media only screen and (min-width: 700px) {
+    
+    .title {
+        color: green;
+    }
+
+}
