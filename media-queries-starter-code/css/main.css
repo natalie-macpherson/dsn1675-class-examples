@@ -71,19 +71,71 @@ figcaption {
 
 @media only screen and (min-width: 30em) {
     
+    .dino-primary {
+     display: inline-block;
+    }
+   
     .dino-secondary {
         float: left;
+        width: 50%;  
     }
 
     .dino-secondary {
         float: right;
+        width: 50%;
     }
         
-    figcaption {
+    .dino-primary figcaption {
       position: absolute;
-        
+    }
+}
+
+@media only screen and (min-width: 44em) {
+    
+   .dino-primary {
+       float: left;
+       width: 33.333%;
+    }
+   
+    .dino-secondary {
+        float: middle;
+        width: 33.333%;  
     }
 
-@media only screen and (min-width: 50em) {
+    .dino-secondary {
+        float: right;
+        width: 33.333%;
+    }
+    
+    .dino-primary figcaption {
+        position: static;
+    }
+        
+}
 
+@media only screen and (min-width: 55em) {
+    
+      .dino-primary {
+          float: left;
+          width: 33.333%;
+    }
+   
+    .dino-secondary {
+        float: middle;
+        width: 33.333%;  
+    }
+
+    .dino-secondary {
+        float: right;
+        width: 33.333%;
+    }
+    
+    figcaption {
+        position: absolute;
+    }
+    
+    .dino-primary figcaption {
+        position: absolute;
+    }
+    
 }
