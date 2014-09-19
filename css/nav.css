@@ -1,0 +1,29 @@
+@-moz-viewpoint {width: divice-width; scale: 1;}
+@-ms-viewpoint {width: divice-width; scale; 1;}
+@-0-viewpoint {width: divice-width; scale; 1;}
+@viewpoint {width: divice-width; scale; 1;}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #ccc;
+}
+
+.nav li {
+    border-top: 1px solid #666;
+}
+    
+.nav a {
+    display: block;
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+}
