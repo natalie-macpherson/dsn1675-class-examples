@@ -1,0 +1,60 @@
+@-moz-viewpoint {width: divice-width; scale: 1;}
+@-ms-viewpoint {width: divice-width; scale; 1;}
+@-0-viewpoint {width: divice-width; scale; 1;}
+@viewpoint {width: divice-width; scale; 1;}
+
+html {
+    box-sizing: border-box;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+label {
+    display: block;
+}
+
+/* Get only the labels that come immediately after an input */
+input + lable {
+    display: inline-block;
+}
+
+button {
+    font-size: 3rem;
+    font-family: cursive;
+    border: 3px solid #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg, black, orange, black);
+    color: #fff;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+}
+
+button:hover {
+     background-image: linear-gradient(45deg, orange, black, orange);
+}
+
+button:active {
+    box-shadow: 1px 1px 50px orange;
+}
+
+.field {
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    background-color: #e2e2e2;
+    padding: 0.2em 0.5em;
+}
+
+.field:focus {
+    background-color: orange;
+    outline: 4px solid #000;
+    color: #fff;
+}
